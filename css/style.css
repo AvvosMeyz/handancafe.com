@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Pacifico|Montserrat|Gloria+Hallelujah|Patua+One|Bevan|Emblema+One|Vollkorn');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+/*
+
+.hero:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../img/cover2.jpg) no-repeat center center fixed;
+    width: 100%;
+    height: 100%;
+    opacity : 1;
+    z-index: -1;
+    background-size:auto;
+    min-height: 100%;
+    min-width: 1024px;
+}
+
+
+*/
+
+.hero {
+    background: url(../img/cover2.jpg) no-repeat;
+    background-size: 100% 100%; 
+    /*
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+}
+
+.red {
+    color: #ca2736;
+    font-family: 'Patua One', cursive;
+    font-size: 1.5rem;
+}
+
+.punch {
+    font-size: 7rem; 
+    color:#39200a;
+    font-family:'Bevan', cursive;
+}
+
+.punch-down {
+    color:#509992;
+    font-family:'Vollkorn', cursive;
+    font-size:3rem; 
+}
+
+.redish {
+    background: url(../img/stonehaven.png) repeat;
+}
+
+.yellowish {
+    background-color: #e3e3e3;
+}
+
+.mid {
+    margin: auto;
+}
+
+.section {
+    display: flex;
+    min-height: 100vh;
+}
+
+.image > .image-size {
+    width: 75%;
+    height: 75%;
+    margin: 0 auto;
+    
+}
+
+.margin-left-img {
+    margin-left: 30%;
+}
+
+
+
+@media (max-width: 1024px){
+.hero-foot {
+    display: none;
+}}
+
+@media (max-width: 1024px){
+    .hero {
+      
+    }
+    .margin-bot {
+        margin: 0.75rem;
+    }
+    
+}
+
+@media (max-width: 769px){
+    .stack {
+        -webkit-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        display: flex;
+    }
+}
+
+#about {
+    min-height: auto;
+}
+
+#contact {
+    min-height: 50vh;
+}
+
+
+#googleMap {
+    border: solid 3px #492b2b;
+    max-width: 100%;
+    height: 200px;
+    
+}
+
+
