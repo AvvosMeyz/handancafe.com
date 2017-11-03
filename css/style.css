@@ -30,8 +30,9 @@ h1 {
 */
 
 .hero {
-    background: url(../img/cover2.jpg) no-repeat;
+    background: url(../img/yazi.jpg) no-repeat;
     background-size: 100% 100%; 
+   /* background-color: #fff6d9; */
     /*
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -47,18 +48,23 @@ h1 {
 
 .punch {
     font-size: 7rem; 
-    color:#39200a;
+    color:#444444;
     font-family:'Bevan', cursive;
 }
 
 .punch-down {
-    color:#509992;
+   
     font-family:'Vollkorn', cursive;
     font-size:3rem; 
 }
 
 .redish {
     background: url(../img/stonehaven.png) repeat;
+}
+
+.container ul li .red{
+
+    color: #de5366;
 }
 
 .yellowish {
