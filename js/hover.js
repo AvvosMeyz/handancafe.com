@@ -1,5 +1,5 @@
-$(document).ready( () => {
-    $('#meal').on('mouseenter', () => {
+$(document).ready( function() {
+    $(' #meal ').on('mouseenter',function() {
         $('#products .container .columns .column .image #plate').stop().animate({opacity:'0.30'});
         $('#products .container .columns .column #arrow, #caption').css('display', 'block');
         
