@@ -6052,7 +6052,8 @@ label.panel-block {
   padding: 3rem 1.5rem; }
 
 .section {
-  padding: 3rem 1.5rem; }
+  padding: 1rem 1.5rem;
+  }
   @media screen and (min-width: 1024px) {
     .section.is-medium {
       padding: 9rem 1.5rem; }
@@ -6061,6 +6062,7 @@ label.panel-block {
 
 .footer {
   background-color: whitesmoke;
-  padding: 3rem 1.5rem 6rem; }
+  padding: 3rem 1.5rem;
+  }
 
 /*# sourceMappingURL=customVar.css.map */
