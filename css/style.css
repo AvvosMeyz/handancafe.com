@@ -5,9 +5,7 @@ body {
     color: white;
 }
 
-h1 {
-    max-width: 100%;
-}
+
 
 
 
@@ -71,8 +69,16 @@ h1 {
     margin-top: 3%;
 }
 
+.title{
+    font-size: 4rem;
+}
+
 .dark{
-    color:white;
+    color:#5e6752;
+}
+
+.pink {
+    color: #a87878;
 }
 
 .punch {
@@ -88,7 +94,7 @@ h1 {
 }
 
 .redish {
-    background: url(../img/wod.jpg); 
+    background: url(../img/wood_1.png); 
     background-size: 100% 100%; 
 }
 
@@ -97,12 +103,18 @@ h1 {
     color: #de5366;
 }
 
+
+
+.gren{
+    color: #5e6752;
+}
+
 .yellowish {
-    background: url(../img/wood2.jpg);
+    background: url(../img/retina_wood.png);
 }
 
 .grey {
-    background: url(../img/wood.png);
+    background: url(../img/93.png);
 }
 
 .mid {
@@ -163,9 +175,7 @@ h1 {
 
 }
 
-#about {
-    min-height: auto;
-}
+
 
 .ort {
     justify-content: center;
