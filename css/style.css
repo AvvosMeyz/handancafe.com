@@ -114,7 +114,7 @@ body {
 }
 
 .grey {
-    background: url(../img/93.png);
+    background: url(../img/purty_wood.png);
 }
 
 .mid {
@@ -154,6 +154,8 @@ body {
 
 }
 
+
+
 @media (max-width: 1215px){
     .punch {
         font-family: 'Rubik Mono One', sans-serif, cursive;
@@ -161,6 +163,12 @@ body {
         color:white;
     }
 }
+@media (max-width: 1024px){
+    #only {
+        display: none;
+    }
+}
+
 @media (max-width: 769px){
     .stack {
         -webkit-flex-direction: column-reverse;
@@ -183,7 +191,7 @@ body {
 }
 
 #contact {
-    min-height: 50vh;
+    min-height: 75vh;
 }
 
 
@@ -198,4 +206,9 @@ body {
     padding: 3rem 1.5rem;
 }
 
+.tel {
+    -webkit-text-stroke-width: 0.1px;
+   -webkit-text-stroke-color: black;
+
+}
 

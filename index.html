@@ -18,6 +18,7 @@
     <section class="hero is-fullheight">
         <div class="hero-head">
             <div class="navbar">
+               
                 <div class="container">
                     <!--
                     <div class="navbar-brand">
@@ -27,21 +28,24 @@
                     </div> 
                 -->
                 
-                    <div class="navbar-menu">
+                    <div class="navbar-menu" id="navMenu">
                         <div class="navbar-start ort">
                             <a href="#" class="navbar-item red">Anasayfa</a>
-                            <a href="#products" class="navbar-item red">Ürünlerimiz</a>
                             <a href="#about" class="navbar-item red">Biz Kimiz</a>
-                            <a href="#contact" class="navbar-item red">Ulaşım</a>
+                            <a href="#products" class="navbar-item red">Ürünlerimiz</a>                           
+                            <a href="#contact" class="navbar-item red">Neredeyiz</a>
                         </div>                        
                     </div>
-                <!--
-                    <button class="button navbar-burger">
+
+                    
+                
+                    <button class="button navbar-burger" data-target="navMenu">
+                        <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
                     </button>
-                -->
+                
                 </div>
             
             </div>
@@ -137,129 +141,6 @@
         </div>
     </section>
 -->
-
-    <section id="products" class="section redish">
-        <div class="container has-text-centered">
-            <div class="columns ">
-                <div class="column has-text-centered">
-                    <div class="title dark">
-                        <h1 class="head dark">Neler yapıyoruz?</h1>
-                    </div>
-                </div>
-            </div>
-            
-            <br>
-
-            <!-- Plate and hover effect -->
-            <div class="columns">
-                <div class="column has-text-centered">
-                    <figure data-aos="flip-down" class="image has-text-centered">
-                        <img id="plate" style="display:inline; width:50%; height:50%" src="img/plate.png" alt="Plate">
-                        <img style=" position:absolute; top:10%; left:25%; width:50%; height:75%;" id="meal" src="img/pasta.png" alt="Pasta">                                                           
-                    </figure>
-                    <div>
-                        <img id="arrow" style="display:none; position:absolute; top:3%; left:52%; width:7%; height:3%;" src="img/arrow.png" alt="arrow"> 
-                        <p id="caption" style="display:none; position:absolute; top:3%; left:60%; font-size:1.75rem; font-family:Helvetica; color:#ca2736" >Doğal, organik zeytinyağı ile yapılmış nefis bir makarna</p>                         
-                    </div>
-                </div>
-            </div>
-
-            <!-- Products lefty and righty -->
-            <div class="columns">
-                <div class="column is-half">
-                    <figure data-aos='fade-right' class="image ">
-                        <img class="image-size" src="img/coffee_mushroom.jpg" alt="Kahve">
-                    </figure>
-                </div>
-                <div class="column mid">
-                    <h1 class="title dark">Reishi Kahvesi</h1><br>
-                    <h2 class="subtitle dark">Sadece Çin'de yetişen bu mucizevi Reishi mantarını
-                         kahveyle harmanlıyor tam bir lezzet ve sağlık ziyafeti sağlıyoruz.</h2>
-                    <!--
-                    <div class="columns">
-                        <div class="column">
-                            <ul>
-                                <li style="text-align:left;">- 
-                                    İçerdiği folik asit sayesinde kan dolaşımını hızlandırır.</li><br>
-                                <li style="text-align:left;">- 
-                                    İçerdiği yüksek proteinden dolayı kilo kontrolünde oldukça etkilidir</li><br>
-                                <li style="text-align:left;">- 
-                                    A,D ve K vitaminlerince zengindir</li>
-                            </ul>
-                        </div>    
-                    </div>
-                    -->
-                </div>
-            </div>
-            <div class="columns stack">
-                <div class="column mid ">
-                    <h1 class="title dark">Börek Çeşitleri</h1><br>
-                    <h2 class="subtitle dark">Yedikten sonra soda ya da Talcid'e koşmanıza
-                         gerektirmeyecek hafif böreklerimiz...</h2>
-                </div>
-                <div class="column is-half">
-                    <figure data-aos='fade-left' class="image">
-                        <img class="image-size" src="img/börek.jpg" alt="Börek">
-                    </figure>
-                </div>
-                
-            </div>
-            <div class="columns">
-                <div class="column is-half">
-                    <figure data-aos='fade-right' class="image">
-                        <img class="image-size" src="img/serpme.jpg" alt="Serpme Kahvaltı">
-                    </figure>
-                </div>
-                <div class="column mid ">                  
-                    <h1 class="title dark">Serpme Kahvaltı</h1><br>
-                    <h2 class="subtitle dark">Tamamen köyden gelmiş,organik, tam tahıllı buğday ekmeği 
-                        ile kilo kontrolünüzde yardımcı köy serpme kahvaltımız</h2>
-                </div>
-            </div>
-            <div class="columns stack">
-                <div class="column mid ">
-                    <h1 class="title dark">Handan Sandviç</h1><br>
-                    <h2 class="subtitle dark">Şefimizin özel seçimi, tam bir öğrenci yemeği, ucuz,
-                         doyuran ve sağlıklı...
-                         Sadece bir deneyin, farkı göreceksiniz</h2>
-                </div>
-                <div class="column is-half">
-                    <figure data-aos='fade-left' class="image">
-                        <img class="image-size margin-left-img" src="img/sandvic.jpg" alt="Sandvic">
-                    </figure>
-                </div>
-                
-            </div>
-            <div class="columns">
-                <div class="column is-half">
-                    <figure data-aos='fade-right' class="image">
-                        <img class="image-size" src="img/manti.jpg" alt="Mantı">
-                    </figure>
-                </div>
-                <div class="column mid ">
-                    <h1 class="title dark">Mantı</h1><br>
-                    <h2 class="subtitle dark">Oldukça hafif, gerçek salçadan ve kıymadan kaçmadığımız özel mantımız...</h2>
-                </div>
-            </div>
-            <div class="columns stack">
-                <div class="column mid">
-                    
-                    <h1 class="title dark">Çorba</h1><br>
-                    <h2 class="subtitle dark">Yine özel şefimizin spesiyelinden harika bir hasta çorbası.
-                        Hasta iken yiyin ertesi gün ayaktasınız.</h2>
-                </div>
-                <div class="column is-half">
-                    <figure data-aos='fade-left' class="image">
-                        <img class="image-size margin-left-img" src="img/corba.jpg" alt="Çorba">
-                    </figure>
-                </div>
-                
-            </div>
-        </div>
-        
-    </section>
-
-    <!-- About page -->
     <section id="about" class="hero is-fullheight grey">
         <div class="hero-body">
             <div class="container has-text-centered">
@@ -284,13 +165,161 @@
                     
     </section>
 
+    <section id="products" class="section redish">
+        <div class="container has-text-centered">
+            <div class="columns ">
+                <div class="column has-text-centered">
+                    <div class="title dark">
+                        <h1 class="head dark">Neler yapıyoruz?</h1>
+                    </div>
+                </div>
+            </div>
+            
+            <br>
+
+            <!-- Plate and hover effect -->
+            <div class="columns" id="only">
+                <div class="column has-text-centered">
+                    <figure data-aos="flip-down" class="image has-text-centered">
+                        <img id="plate" style="display:inline; width:50%; height:50%" src="img/plate.png" alt="Plate">
+                        <img style=" position:absolute; top:10%; left:25%; width:50%; height:75%;" id="meal" src="img/pasta.png" alt="Pasta">                                                           
+                    </figure>
+                    <div>
+                        <img id="arrow" style="display:none; position:absolute; top:3%; left:52%; width:7%; height:3%;" src="img/arrow.png" alt="arrow"> 
+                        <p id="caption" style="display:none; position:absolute; top:3%; left:60%; font-size:1.75rem; font-family:Helvetica; color:#ca2736 " >Doğal, organik zeytinyağı ile yapılmış nefis bir makarna</p>                         
+                    </div>
+                </div>
+            </div>
+
+            <!-- Products lefty and righty -->
+            <div class="columns">
+                <div class="column is-half">
+                    <figure data-aos='fade-right' class="image ">
+                        <img class="image-size" src="img/cof.jpg" alt="Kahve">
+                    </figure>
+                </div>
+                <div class="column mid">
+                    <h1 class="title dark">Reishi Kahvesi</h1><br>
+                    <h2 class="subtitle dark tel">Sadece Çin'de yetişen bu mucizevi Reishi mantarını
+                         kahveyle harmanlıyor tam bir lezzet ve sağlık ziyafeti sağlıyoruz.</h2>
+                    <!--
+                    <div class="columns">
+                        <div class="column">
+                            <ul>
+                                <li style="text-align:left;">- 
+                                    İçerdiği folik asit sayesinde kan dolaşımını hızlandırır.</li><br>
+                                <li style="text-align:left;">- 
+                                    İçerdiği yüksek proteinden dolayı kilo kontrolünde oldukça etkilidir</li><br>
+                                <li style="text-align:left;">- 
+                                    A,D ve K vitaminlerince zengindir</li>
+                            </ul>
+                        </div>    
+                    </div>
+                    -->
+                </div>
+            </div>
+            <div class="columns stack">
+                <div class="column mid ">
+                    <h1 class="title dark">Börek Çeşitleri</h1><br>
+                    <h2 class="subtitle dark tel">Yedikten sonra soda ya da Talcid'e koşmanıza
+                         gerektirmeyecek hafif böreklerimiz...</h2>
+                </div>
+                <div class="column is-half">
+                    <figure data-aos='fade-left' class="image">
+                        <img class="image-size" src="img/börek.jpg" alt="Börek">
+                    </figure>
+                </div>
+                
+            </div>
+            <div class="columns">
+                <div class="column is-half">
+                    <figure data-aos='fade-right' class="image">
+                        <img class="image-size" src="img/serpme.jpg" alt="Serpme Kahvaltı">
+                    </figure>
+                </div>
+                <div class="column mid ">                  
+                    <h1 class="title dark">Serpme Kahvaltı</h1><br>
+                    <h2 class="subtitle dark tel">Tamamen köyden gelmiş,organik, tam tahıllı buğday ekmeği 
+                        ile kilo kontrolünüzde yardımcı köy serpme kahvaltımız</h2>
+                </div>
+            </div>
+            <div class="columns stack">
+                <div class="column mid ">
+                    <h1 class="title dark">Handan Sandviç</h1><br>
+                    <h2 class="subtitle dark tel">Şefimizin özel seçimi, tam bir öğrenci yemeği, ucuz,
+                         doyuran ve sağlıklı...
+                         Sadece bir deneyin, farkı göreceksiniz</h2>
+                </div>
+                <div class="column is-half">
+                    <figure data-aos='fade-left' class="image">
+                        <img class="image-size margin-left-img" src="img/sandvic.jpg" alt="Sandvic">
+                    </figure>
+                </div>
+                
+            </div>
+            <div class="columns">
+                <div class="column is-half">
+                    <figure data-aos='fade-right' class="image">
+                        <img class="image-size" src="img/manti.jpg" alt="Mantı">
+                    </figure>
+                </div>
+                <div class="column mid ">
+                    <h1 class="title dark">Mantı</h1><br>
+                    <h2 class="subtitle dark tel">Oldukça hafif, gerçek salçadan ve kıymadan kaçmadığımız özel mantımız...</h2>
+                </div>
+            </div>
+            <div class="columns stack">
+                <div class="column mid">
+                    
+                    <h1 class="title dark">Çorba</h1><br>
+                    <h2 class="subtitle dark tel">Yine özel şefimizin spesiyelinden harika bir hasta çorbası.
+                        Hasta iken yiyin ertesi gün ayaktasınız.</h2>
+                </div>
+                <div class="column is-half">
+                    <figure data-aos='fade-left' class="image">
+                        <img class="image-size margin-left-img" src="img/corba.jpg" alt="Çorba">
+                    </figure>
+                </div>
+                
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- About page -->
+    <!--
+    <section id="about" class="hero is-fullheight grey">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="columns ">
+                    <div class="column">
+                        <h1 class="title head pink">Biz Kimiz ??</h1>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column is-half">
+                        <figure data-aos='fade-right' class="image">
+                            <img src="/img/veg.png" alt="veg">
+                        </figure>
+                    </div>
+                    <div class="column is-half is-flex mid">
+                        <h1 data-aos='fade-left' class="title pink" style="font-size:2rem;">Bizler dışarıda yediğimiz yemeklerin sağlıklı, ekonomik
+                                                                ve doyurucu olmasını isteyip bunu neden biz yapmıyoruz demiş bir çiftiz.</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+                    
+    </section>
+    -->
+
     <!-- Contact page -->
     <section id="contact" class="section yellowish">
         <div class="container has-text-centered">
             <div class="columns ">
                 <div class="column has-text-centered">
                     <div class="title purpel">
-                        <h1 class="head pink">İletişim</h1>
+                        <h1 class="head pink">Neredeyiz?</h1>
                     </div>
                 </div>
             </div>
@@ -299,7 +328,8 @@
                     <div id=googleMap></div>
                 </div>
                 <div class="column">
-                    <h1 class="title i-1 pink" style="font-size:2rem;">Handan Cafe&Shop</h1><br>
+                    <h1 class="title i-1 pink" style="font-size:2rem;">Handan Cafe&Shop</h1>
+                    <img src="../img/spr.png" alt="">
                     <h2 class="subtitle is-4 pink">Korutürk Mahallesi <br> Vali Hüseyin Öğütçen Cd No:21</h2>             
                 </div>
             </div>
@@ -311,7 +341,16 @@
         <div class="container">
             <div class="content has-text-centered">
                 <p>
-                    Made with <i class="fa fa-heart"></i> by <a href="http://github.com/AvvosMeyz" target="_blank">Avvos</a><!-- and <a href="">Odith</a>-->. Copyleft.
+                        
+                              
+                    Made with <i class="fa fa-heart"></i> by 
+                        <a href="http://github.com/AvvosMeyz" target="_blank">
+                    
+                        Avvos</a>
+                        <span class="icon is-small">
+                            <i class="fa fa-github"></i>
+                        </span></i>
+                          <!-- and <a href="">Odith</a>-->. Copyleft.
                 </p>
             </div>
         </div>
